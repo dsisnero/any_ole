@@ -1,0 +1,19 @@
+name: any_ole
+version: 0.1.0
+
+authors:
+  - dsisnero <dsisnero@gmail.com>
+
+dependencies:
+  anyolite:
+    github: Anyolite/anyolite
+    branch: main
+    version: 1.0.0
+
+targets:
+  any_ole:
+    main: src/any_ole.cr
+
+crystal: '>= 1.13.1'
+
+license: MIT
